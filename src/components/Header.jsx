@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { List } from 'react-bootstrap-icons'
 import MobileMenu from '../components/MobileMenu'
-import logo from '../assets/logo_mobilitydogs_transparent.png'
+import logo from '../../public/assets/logo_mobilitydogs_transparent.png'
 
 const Header = () => {
 

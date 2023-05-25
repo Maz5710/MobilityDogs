@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-import hero from '../assets/hero_1.png'
+import Hero from '../../public/assets/Hero_1.png'
 
 const baseUrl = import.meta.env.VITE_WP_API_BASEURL
 
@@ -55,7 +55,7 @@ const Home = () => {
 
   return (
     <div>
-        <div id='hero'><img src={hero}/>
+        <div id='hero'><img src={Hero}/>
         <h1 id='hero-text'>Life Changing Loyalty</h1>  
         </div>
         <p id="purpose">
